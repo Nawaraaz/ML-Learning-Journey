@@ -1,0 +1,47 @@
+Project idea: Fake news headline generator
+
+what are we going to build: fake and funny headline creater
+
+how the program work: steps
+                     1) subject {who or what}
+                     2) Actions 
+                     3) places/objects
+The user will input subject
+
+concepts used: 
+lists : to store the group of words like names actions places
+
+random.choice(): to pick one item randomly from a list
+
+print(): to show the fake headline on screen
+
+input(): to ask user if they want another headline
+
+while loop : to repeat the process untill the user says no
+
+strings concatenation or f-strings: to form sentence using selected words
+
+
+        : steps
+           1) import random module
+           2) create list of subjects, actiions, and places all with examples
+           3) use random.choice() to pick one word from each list
+           4) combine the words into a headline using string formatting
+           5) print the headline to the user
+           6) Ask the user if they want another headline
+           7) If yes repeat; if no stop the program
+
+psudocode:
+1. Start the program
+2. import the random module
+3. create a list of subjects
+4. create a llist of actions
+5. create a list of places or strings
+6. start a loop that keeps running until the user says no
+   a. randomly choose one item from each list
+   b. combine the three chosen words into one sentence using string formatting
+   c. print the final fake headline
+   d. ask the user it they want to generate another one
+   e. if user says no end the loop
+7. Print a goodbye message
+8. end the program

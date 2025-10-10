@@ -1,0 +1,47 @@
+project title: Calculator with history
+
+what i am going to build : A calculator that can be able to perform calculations of arthimetic operations and show the calculations history
+
+how will the program work: user will input the arthimetic operator in the terminal as given along with numbers and the results will be displayed
+
+features: can look calculations history
+          can clear the history
+          can clear the operations
+          can clear the whole equations and program
+
+concepts and their need in program
+
+input: to get user input
+functions: to organize code
+conditions: to decide what to do
+file handling: to save/ load/ clear history in a .txt file
+loops: to keep the program running until user exits
+basic maths: for calculations
+
+
+psudocode:
+1. start the program
+2. define the name of history file
+3. loop forever(while true):
+   a. ask user to enter a calculation
+   b. if user enters exit:
+      i. print a goodbye message
+      ii. break the loop
+    c. if users enters history :
+       i. try to open the history file
+       ii. if file exits and not empty, print each line
+       iii. If file doesnot exists or is empty, print no history found
+       iv. continue to the next loop
+    d. if users enters clear:
+       i. open the history file and empty it
+       ii. print history cleared
+       iii. continue to the next loop
+
+    e. otherwise
+       i. try to praise the input to get the numbers and the operator
+       ii. if input is not valid, print invalid input and continue
+       iii. perform the calculation using if/elif
+       iv. show the result to the user
+       v. write the calculation and result to the result to the history file
+
+    f. End the program
