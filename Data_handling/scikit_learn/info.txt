@@ -1,0 +1,22 @@
+machine Learning models only understands numbers not the string so at first we have to convert the value into the encoded form to make operation fast
+
+e.g if we have to predicit car model sales based on the model and the fuel type that what we going to do
+data {
+    car_Brand = BMW, Audi, Tesla
+    fuel_type = petrol, Diesel, Electricity
+}
+the system dont understand what it means it have to convert it into encoded form
+
+BMW =0
+Tesla =1
+Audi= 2
+or
+BMW= [1,0,0]
+Audi = [0,1,0]
+Tesla = [0,0,1]
+
+Label encoding: Replacing each catagory represented in text form into numeric
+e.g
+gender  encoded
+male     0
+female   1     # it is like yes or no
